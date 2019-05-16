@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#keybord {
+	display: block;
+	border: 2px solid black;
+	padding: 5px;
+}
+#keybord::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+h1 {
+	text-align: center;
+	padding: 50px;
+}
+.left {
+	width: 784px;
+	margin: 0 auto;
+}
+.k-key {
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	margin: 3px;
+	padding: 3px;
+	float: left;
+} 
+.active {
+	background: orange;
+} 
